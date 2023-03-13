@@ -38,8 +38,8 @@ print("=========================================================================
 
 var numbers2 = [Int]()
 
-for _ in 0..<100 {
-    let randomNumber = Int.random(in: 0..<100)
+for _ in 1...100 {
+    let randomNumber = Int.random(in: 1...100)
     numbers2.append(randomNumber)
 }
 
