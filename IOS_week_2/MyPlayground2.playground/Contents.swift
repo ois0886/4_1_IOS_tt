@@ -32,6 +32,7 @@ for number in numbers {
 
 print("min: \(min)")
 print("max: \(max)")
+print("number: \(numbers)")
 print("==========================================================================")
 
 
