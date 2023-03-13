@@ -50,3 +50,12 @@ numbers2.sort { (number1, number2) -> Bool in
 
 print(numbers2)
 print("==========================================================================")
+
+var numbers3 = [Int]()
+for _ in 0..<100 {
+    numbers3.append(Int.random(in: 1...1000))
+}
+
+numbers3.sort { $0 < $1 }
+
+print(numbers3)
